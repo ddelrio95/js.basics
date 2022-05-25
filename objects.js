@@ -4,5 +4,6 @@ function Student(name, eyeColor, age) {
   this.age = age
   this.updateAge = function () {
    return++
-  };
+  }
 }
+//commit
