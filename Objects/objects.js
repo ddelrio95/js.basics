@@ -3,7 +3,7 @@ function Student(name, eyeColor, age) {
   this.eyeColor = this.eyeColor
   this.age = age
   this.updateAge = function () {
-   return++
+    return
   }
 }
 //commit
