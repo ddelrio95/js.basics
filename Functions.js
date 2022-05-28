@@ -61,3 +61,24 @@ function toFahrenheit(cel) {
   return cel * 1.8 + 32
 }
 console.log(toFahrenheit(5))
+
+// Function to find the area of a given rectangle
+let area = function (a, b) {
+  console.log(a * b)
+}
+area(10, 20)
+
+// Other solution
+function area1(w, l) {
+  return `The area of the rectangle is ${w * l}`
+}
+console.log(area1(10, 20))
+
+// Solution with user input
+var rectangleWidth = prompt('Enter the width of the rectangle')
+var rectangleLarge = prompt('Enter the large of the rectangle')
+
+let result = function () {
+  return `The are of the rectangle is ${rectangleWidth * rectangleLarge}`
+}
+result() // check
